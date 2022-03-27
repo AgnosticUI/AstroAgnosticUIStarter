@@ -1,0 +1,22 @@
+{
+  "name": "@example/starter",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/renderer-react": "^0.5.0",
+    "@astrojs/renderer-svelte": "^0.5.2",
+    "@astrojs/renderer-vue": "^0.4.0",
+    "astro": "^0.24.3"
+  },
+  "dependencies": {
+    "agnostic-react": "^0.1.19",
+    "agnostic-svelte": "^1.1.12",
+    "agnostic-vue": "^1.0.19"
+  }
+}
