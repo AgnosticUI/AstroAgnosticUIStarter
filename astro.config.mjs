@@ -5,8 +5,7 @@ import react from '@astrojs/react';
 
 export default defineConfig({
 	integrations: [vue(), react(), svelte()],
-  devOptions: {
-    hostname: 'localhost',
+  server: {
     port: 3012,
   }
 });
